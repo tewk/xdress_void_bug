@@ -25,7 +25,7 @@ Foobar2 = Extension("foopy.Foobar2",
                    include_dirs=incdirs, language="c++")
 
 # List modules we want to build
-ext_modules = [stl_cont, xdress_extras, Foobar, Foobar2]
+ext_modules = [Foobar, Foobar2]
 
 setup(
   name = 'hbspy',
